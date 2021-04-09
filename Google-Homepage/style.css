@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-left: auto;
+  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  height: 20px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 3rem;
+  border: 1px solid grey;
+  outline: none;
+}
+
+input:hover {
+  background: #eeeeee;
+}
+main {
+  text-align: center;
+  margin: 6.9em auto;
+  width: 50%;
+}
+.btn-container {
+  margin-top: 1em;
+}
+
+.btn-container button {
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+  margin: 0px 6px;
+  outline: none;
+}
+button:hover {
+  background: #eeeeee;
+}
+footer {
+  background-color: rgb(245, 243, 243);
+  text-transform: capitalize;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer-top {
+  padding: 1em;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(153, 152, 152);
+}
+.left a {
+  margin-right: 1em;
+}
+.right a {
+  margin-right: 1em;
+}
+@media screen and (max-width: 640px) {
+  main > img {
+    width: 50%;
+    margin-top: 1.5rem;
+  }
+  input {
+    width: 86%;
+  }
+  .btn-container button {
+    margin-bottom: 10px;
+  }
+  body {
+    overflow: hidden;
+  }
+  main {
+    margin: 1.5rem 0px;
+  }
+}
+@media screen and (min-width: 641px) {
+  main > img {
+    width: 50%;
+    height: 90px;
+    margin-top: 1.5rem;
+  }
+  input {
+    width: 86%;
+  }
+  .btn-container button {
+    margin-bottom: 10px;
+  }
+  body {
+    overflow: hidden;
+  }
+}
